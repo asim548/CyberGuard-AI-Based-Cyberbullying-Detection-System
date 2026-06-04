@@ -1,0 +1,173 @@
+{
+  "samples": 11060,
+  "train_size": 7742,
+  "val_size": 1659,
+  "test_size": 1659,
+  "labels": [
+    "Safe",
+    "Toxic",
+    "Severe Bullying"
+  ],
+  "train": {
+    "accuracy": 0.8603719969000259,
+    "f1_macro": 0.892297080311479,
+    "report": {
+      "Safe": {
+        "precision": 0.8280254777070064,
+        "recall": 0.9093264248704663,
+        "f1-score": 0.8667736757624398,
+        "support": 3860.0
+      },
+      "Toxic": {
+        "precision": 0.8982340616581862,
+        "recall": 0.8041264737406216,
+        "f1-score": 0.848579103633536,
+        "support": 3732.0
+      },
+      "Severe Bullying": {
+        "precision": 0.9259259259259259,
+        "recall": 1.0,
+        "f1-score": 0.9615384615384616,
+        "support": 150.0
+      },
+      "accuracy": 0.8603719969000259,
+      "macro avg": {
+        "precision": 0.8840618217637063,
+        "recall": 0.9044842995370294,
+        "f1-score": 0.892297080311479,
+        "support": 7742.0
+      },
+      "weighted avg": {
+        "precision": 0.8637660489468205,
+        "recall": 0.8603719969000259,
+        "f1-score": 0.8598391077801788,
+        "support": 7742.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        3510,
+        340,
+        10
+      ],
+      [
+        729,
+        3001,
+        2
+      ],
+      [
+        0,
+        0,
+        150
+      ]
+    ]
+  },
+  "validation": {
+    "accuracy": 0.7094635322483424,
+    "f1_macro": 0.6584164824295232,
+    "report": {
+      "Safe": {
+        "precision": 0.7073732718894009,
+        "recall": 0.7424425634824667,
+        "f1-score": 0.7244837758112095,
+        "support": 827.0
+      },
+      "Toxic": {
+        "precision": 0.7150326797385621,
+        "recall": 0.68375,
+        "f1-score": 0.6990415335463259,
+        "support": 800.0
+      },
+      "Severe Bullying": {
+        "precision": 0.6153846153846154,
+        "recall": 0.5,
+        "f1-score": 0.5517241379310345,
+        "support": 32.0
+      },
+      "accuracy": 0.7094635322483424,
+      "macro avg": {
+        "precision": 0.6792635223375262,
+        "recall": 0.642064187827489,
+        "f1-score": 0.6584164824295232,
+        "support": 1659.0
+      },
+      "weighted avg": {
+        "precision": 0.7092924335959565,
+        "recall": 0.7094635322483424,
+        "f1-score": 0.7088827497569163,
+        "support": 1659.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        614,
+        208,
+        5
+      ],
+      [
+        248,
+        547,
+        5
+      ],
+      [
+        6,
+        10,
+        16
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.7251356238698011,
+    "f1_macro": 0.6747782933921714,
+    "report": {
+      "Safe": {
+        "precision": 0.7116228070175439,
+        "recall": 0.7847642079806529,
+        "f1-score": 0.7464059804485337,
+        "support": 827.0
+      },
+      "Toxic": {
+        "precision": 0.7441217150760719,
+        "recall": 0.6725,
+        "f1-score": 0.706500328299409,
+        "support": 800.0
+      },
+      "Severe Bullying": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1-score": 0.5714285714285714,
+        "support": 32.0
+      },
+      "accuracy": 0.7251356238698011,
+      "macro avg": {
+        "precision": 0.7074703962534276,
+        "recall": 0.6524214026602176,
+        "f1-score": 0.6747782933921714,
+        "support": 1659.0
+      },
+      "weighted avg": {
+        "precision": 0.7264272253150692,
+        "recall": 0.7251356238698011,
+        "f1-score": 0.7237876568753336,
+        "support": 1659.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        649,
+        173,
+        5
+      ],
+      [
+        259,
+        538,
+        3
+      ],
+      [
+        4,
+        12,
+        16
+      ]
+    ]
+  }
+}
