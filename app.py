@@ -14,7 +14,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-from config import LABEL_COLORS, LABELS, STUDENT_INFO
+from config import LABEL_COLORS, LABELS
 from src.predict import load_model_bundle, predict_text
 from src.utils import load_metrics
 
@@ -289,13 +289,6 @@ with st.sidebar:
     else:
         st.info("Train the model to see metrics.")
 
-    st.divider()
-    st.markdown(
-        f"**{STUDENT_INFO['name']}**  \n"
-        f"{STUDENT_INFO['roll_no']}  \n"
-        f"Section {STUDENT_INFO['section']}"
-    )
-
 
 # ─── Load model ────────────────────────────────────────────────────────────────
 try:
@@ -507,19 +500,10 @@ elif page == "📊 Model Insights":
 
 
 else:  # About
-    render_hero("Academic project – Artificial Intelligence (6th Semester)")
+    render_hero("AI-powered cyberbullying detection for safer online communities")
 
     st.markdown(
-        f"""
-### Student Information
-| Field | Value |
-|-------|-------|
-| **Name** | {STUDENT_INFO['name']} |
-| **Roll No** | {STUDENT_INFO['roll_no']} |
-| **Section** | {STUDENT_INFO['section']} |
-| **Course** | {STUDENT_INFO['course']} |
-| **Semester** | {STUDENT_INFO['semester']} |
-
+        """
 ### Purpose
 Cyberbullying affects students' mental health on social media. **CyberGuard** automatically
 analyzes text to detect bullying, toxic, or abusive content so schools, parents, and platforms

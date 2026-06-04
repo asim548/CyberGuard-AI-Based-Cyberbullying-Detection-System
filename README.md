@@ -97,7 +97,7 @@ The Streamlit app includes five sections:
 2. **Analyze Text** — Single-message classification with sample presets  
 3. **Batch Analysis** — CSV upload, pie-chart summary, downloadable results  
 4. **Model Insights** — Per-class precision/recall/F1, confusion matrix heatmap  
-5. **About Project** — Academic details, tech stack, 4-week timeline  
+5. **About Project** — Project overview, tech stack, development timeline  
 
 ---
 
@@ -121,7 +121,7 @@ The Streamlit app includes five sections:
 ```
 CyberGuard/
 ├── app.py                      # Streamlit web application
-├── config.py                   # Paths, labels, student metadata
+├── config.py                   # Paths, labels, and app constants
 ├── requirements.txt            # Runtime dependencies
 ├── requirements-notebooks.txt  # Jupyter / EDA extras
 ├── run_app.bat                 # Windows launcher
@@ -181,17 +181,7 @@ pip install "kagglesdk==0.1.22" "kagglehub==1.0.1"
 
 ---
 
-## Academic Information
-
-| Field | Value |
-|-------|-------|
-| **Student** | Hasnain Abbas |
-| **Roll No** | UL-BSCS(M) 27-62 |
-| **Section** | B Section |
-| **Course** | Artificial Intelligence |
-| **Semester** | 6th |
-
-### 4-Week Development Timeline
+## Development Timeline
 
 | Week | Task |
 |------|------|

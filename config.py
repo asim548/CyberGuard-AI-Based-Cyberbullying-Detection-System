@@ -41,11 +41,3 @@ KAGGLE_LABEL_MAP = {
     "0": "Safe",
     "1": "Toxic",
 }
-
-STUDENT_INFO = {
-    "name": "Hasnain Abbas",
-    "roll_no": "UL-BSCS(M) 27-62",
-    "section": "B Section",
-    "course": "Artificial Intelligence",
-    "semester": "6th",
-}
